@@ -23,18 +23,21 @@
 <br/>
 
   * <b> Windows </b>: 
-  <br/>
 
     - [Clicar neste link](https://rubyinstaller.org/downloads/) para baixar a versão mais estável do Ruby com devkit (atualmente é a 2.7.3), escolhendo 64 bits (versão x64) ou 32 bits (versão x86) de acordo com seu sistema operacional;
+
     - Abrir o arquivo executável, aceitar os termos, instalar de acordo com as configurações da imagem abaixo:
+
     <br/>
 
     ![rubyinstaller_configs_install](https://user-images.githubusercontent.com/60954622/118544545-ea75d680-b72b-11eb-9703-d0935d8732b4.jpg)
-    <br/><br/>
+
+    <br/>
 
     - Após concluir a instalação, será aberta uma janela do prompt de comando pedindo para que você digite um número. Digite 1 (para instalar a MSYS2) e clique em "Enter";
 
     - O próximo passo é verificar se a instalação foi concluída. Para isso, abra o prompt de comando. Se não souber onde fica, abra o menu inicial do Windows e digite as palavras "prompt de comando". O Windows vai te sugerir e poderá abrir. Com ele aberto, digite a palavra a seguir e clique em "Enter":
+
 
     ```
     ruby -v
@@ -49,9 +52,10 @@
     <br/>
 
   * <b> MacOS e Linux </b>: 
-  <br/>
+
     - É aconselhável baixar a versão estável do Ruby através de um sistema de gerenciamento de pacotes, utilizaremos o RVM. [Clique aqui](http://rvm.io/rvm/install) para ver o passo a passo na documentação oficial. 
-    <br/><br/>
+
+    <br/>
 
     - Vamos instalar o Homebrew, que é um gerenciador de pacotes para esses sistemas operacionais. [A documentação oficial em português está aqui](https://brew.sh/index_pt-br). Abra o terminal e digite o comando abaixo e clique em "Enter" para instalar o Homebrew:
 
@@ -123,7 +127,7 @@
   1 gem installed
   ```
     
-  <br/><br/>
+  <br/>
 
 ### 4. Fazer o download do chromedriver e como configurá-lo para conseguirmos manipular o Chrome através do Selenium 🚢
 <br/>
@@ -139,7 +143,6 @@
 
   ![versao_chrome_navegador](https://user-images.githubusercontent.com/60954622/118559816-e901d980-b73e-11eb-9c87-f113d712b614.jpg)
 
-<br/>
 
   - Na imagem acima podemos ver que a versão instalada é a 90.0.4430.212;
 
@@ -149,7 +152,7 @@
 
   ![versao_chromedriver_so](https://user-images.githubusercontent.com/60954622/118561257-22d3df80-b741-11eb-9698-efa91861b053.jpg)
 
-<br/>
+  <br/>
 
   - Abrir a pasta que acabamos de baixar e:
 
