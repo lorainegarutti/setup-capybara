@@ -8,19 +8,22 @@
 <br/>
 
   - Entrar no [site do VSCode](https://code.visualstudio.com/) e baixar a versão que corresponde ao seu sistema operacional (Windows, Mac ou Linux);
+
   - Após o download, abrir o arquivo executável e escolher a pasta onde ele ficará.
+
   - Na etapa seguinte, uma sugestão boa é marcar as configurações adicionais de acordo com a imagem abaixo:
-  <br/>
 
   ![vscode_configs_install](https://user-images.githubusercontent.com/60954622/118541634-4e969b80-b728-11eb-9f2f-54c1a2108123.jpg)
-  <br/><br/>
+
+  <br/>
 
   - É só finalizar a instalação e estaremos prontos para seguir!
 
-  <br/><br/>
+  <br/>
 
 ### 2. Obter a distribuição do Ruby na versão mais estável. Para a instalação, siga os passos de acordo com seu sistema operacional 💾 
-<br/>
+
+  <br/>
 
   * <b> Windows </b>: 
 
@@ -37,7 +40,6 @@
     - Após concluir a instalação, será aberta uma janela do prompt de comando pedindo para que você digite um número. Digite 1 (para instalar a MSYS2) e clique em "Enter";
 
     - O próximo passo é verificar se a instalação foi concluída. Para isso, abra o prompt de comando. Se não souber onde fica, abra o menu inicial do Windows e digite as palavras "prompt de comando". O Windows vai te sugerir e poderá abrir. Com ele aberto, digite a palavra a seguir e clique em "Enter":
-
 
     ```
     ruby -v
@@ -63,23 +65,17 @@
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-    <br/>
-
     - Agora precisamos instalar o gpupg2, um software de criptografia, utilizado para instalar o RVM. No terminal, digite o comando abaixo e clique em "Enter":
 
     ```
     brew install gnupg
     ```
 
-    <br/>
-    
     - Ainda no terminal, digite o comando abaixo e clique em "Enter" para instalar as chaves de verificação:
 
     ```
     gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
     ```
-
-    <br/>
     
     - Digite o comando abaixo no terminal e clique em "Enter" para baixar o RVM já com a versão estável do Ruby:
 
@@ -87,23 +83,25 @@
     \curl -sSL https://get.rvm.io | bash -s stable --ruby
     ```
 
-    <br/>
-    
     - O próximo passo é verificar se a instalação do RVM + Ruby foi concluída. Para isso, no terminal, digite o comando abaixo no terminal e clique em "Enter":
 
     ```
     rvm list
     ```
-
-    <br/>
     
     - Se RVM + Ruby tiverem sido instalados corretamente, o resultado esperado será algo parecido com a mensagem abaixo:
 
     ```
     =* ruby 2.7.3 [ x86_64 ]
     ```
+
+    - Para fixar a versão do Ruby que acabou de ser instalada, digite o comando abaixo no terminal e clique em "Enter":
+
+    ```
+    rvm use default 2.7
+    ```
     
-    <br/><br/>
+    <br/>
     
 
 ### 3. Instalar a gem do bundler para instalar todas as gems necessárias do projeto (para todos os sistemas operacionais) 💎
@@ -114,8 +112,6 @@
   ```
   gem install bundler
   ```
-  
-  <br/>
 
   - A resposta deve ser parecida com a seguinte:
 
@@ -135,14 +131,16 @@
   - Ver qual versão do Chrome está instalada no seu computador. Para isso, dentro do navegador aberto, clique nos três pontinhos no canto superior direito e escolha "Configurações". Para ir direto, é só digitar o seguinte endereço no navegador:
   
   - A partir das configurações, clicar no canto inferior esquerdo "Sobre o Chrome". Para ir direto, é só digitar o seguinte endereço no navegador:
-
     
   ```
   chrome://settings/help
   ```
 
+  <br/>
+
   ![versao_chrome_navegador](https://user-images.githubusercontent.com/60954622/118559816-e901d980-b73e-11eb-9c87-f113d712b614.jpg)
 
+  <br/>
 
   - Na imagem acima podemos ver que a versão instalada é a 90.0.4430.212;
 
@@ -150,6 +148,8 @@
 
   - Depois de clicar em cima da versão que precisamos, podemos escolher o sistema operacional que estamos trabalhando para baixar: 
 
+  <br/>
+  
   ![versao_chromedriver_so](https://user-images.githubusercontent.com/60954622/118561257-22d3df80-b741-11eb-9698-efa91861b053.jpg)
 
   <br/>
@@ -183,7 +183,7 @@
     /usr/local/bin/chromedriver
     ```
     
-<br/><br/>
+<br/>
   
 ### 5. Vamos começar o setup do projeto! 🎬
 
