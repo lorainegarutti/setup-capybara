@@ -11,7 +11,7 @@
 
   - Na etapa seguinte, uma sugestão boa é marcar as configurações adicionais de acordo com a imagem abaixo:
 
-  ![vscode_configs_install](https://user-images.githubusercontent.com/60954622/118541634-4e969b80-b728-11eb-9f2f-54c1a2108123.jpg)
+  <img width="400px" src="images/vscode_configs_install.jpg" />
 
   - É só finalizar a instalação e estaremos prontos para seguir!
 
@@ -24,7 +24,7 @@
 
     - Abrir o arquivo executável, aceitar os termos, instalar de acordo com as configurações da imagem abaixo:
 
-    ![rubyinstaller_configs_install](https://user-images.githubusercontent.com/60954622/118544545-ea75d680-b72b-11eb-9703-d0935d8732b4.jpg)
+    <img width="400px" src="images/rubyinstaller_configs_install.jpg" />
 
     - Após concluir a instalação, será aberta uma janela do prompt de comando pedindo para que você digite um número. Digite 1 (para instalar a MSYS2) e clique em "Enter";
 
@@ -115,7 +115,7 @@
   chrome://settings/help
   ```
 
-  ![versao_chrome_navegador](https://user-images.githubusercontent.com/60954622/118559816-e901d980-b73e-11eb-9c87-f113d712b614.jpg)
+  <img width="400px" src="images/versao_chrome_navegador.jpg" />
 
   - Na imagem acima podemos ver que a versão instalada é a 90.0.4430.212;
 
@@ -123,7 +123,7 @@
 
   - Depois de clicar em cima da versão que precisamos, podemos escolher o sistema operacional que estamos trabalhando para baixar: 
 
-  ![versao_chromedriver_so](https://user-images.githubusercontent.com/60954622/118561257-22d3df80-b741-11eb-9698-efa91861b053.jpg)
+  <img width="400px" src="images/versao_chromedriver_so.jpg" />
 
   - Abrir a pasta que acabamos de baixar e:
 
