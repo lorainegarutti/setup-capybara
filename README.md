@@ -115,7 +115,7 @@
   chrome://settings/help
   ```
 
-  <img width="400px" align="center" src="images/versao_chrome_navegador.jpg" />
+  <img width="500px" align="center" src="images/versao_chrome_navegador.jpg" />
 
   - Na imagem acima podemos ver que a versão instalada é a 90.0.4430.212;
 
@@ -123,7 +123,7 @@
 
   - Depois de clicar em cima da versão que precisamos, podemos escolher o sistema operacional que estamos trabalhando para baixar: 
 
-  <img width="400px" align="center" src="images/versao_chromedriver_so.jpg" />
+  <img width="500px" align="center" src="images/versao_chromedriver_so.jpg" />
 
   - Abrir a pasta que acabamos de baixar e:
 
