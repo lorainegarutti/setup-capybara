@@ -2,10 +2,8 @@
 
 
 ## Como configurar os programas para começar a escrever os testes?
-<br/>
 
 ### 1. Fazer download do seu editor de código preferido. Para utilizar Ruby + Cucumber, preferimos o VSCode ❤️
-<br/>
 
   - Entrar no [site do VSCode](https://code.visualstudio.com/) e baixar a versão que corresponde ao seu sistema operacional (Windows, Mac ou Linux);
 
@@ -89,7 +87,6 @@
     ```
 
 ### 3. Instalar a gem do bundler para instalar todas as gems necessárias do projeto (para todos os sistemas operacionais) 💎
-<br/>
 
   - No terminal (MacOS e Linux) ou no prompt de comando (Windows), digite o comando abaixo e clique em "Enter":
 
