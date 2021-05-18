@@ -15,15 +15,10 @@
 
   ![vscode_configs_install](https://user-images.githubusercontent.com/60954622/118541634-4e969b80-b728-11eb-9f2f-54c1a2108123.jpg)
 
-  <br/>
-
   - É só finalizar a instalação e estaremos prontos para seguir!
 
-  <br/>
 
 ### 2. Obter a distribuição do Ruby na versão mais estável. Para a instalação, siga os passos de acordo com seu sistema operacional 💾 
-
-  <br/>
 
   * <b> Windows </b>: 
 
@@ -31,11 +26,7 @@
 
     - Abrir o arquivo executável, aceitar os termos, instalar de acordo com as configurações da imagem abaixo:
 
-    <br/>
-
     ![rubyinstaller_configs_install](https://user-images.githubusercontent.com/60954622/118544545-ea75d680-b72b-11eb-9703-d0935d8732b4.jpg)
-
-    <br/>
 
     - Após concluir a instalação, será aberta uma janela do prompt de comando pedindo para que você digite um número. Digite 1 (para instalar a MSYS2) e clique em "Enter";
 
@@ -51,13 +42,9 @@
     ruby 2.7.3p183 (2021-04-05 revision 6847ee089d) [x64-mingw32]
     ```
 
-    <br/>
-
   * <b> MacOS e Linux </b>: 
 
     - É aconselhável baixar a versão estável do Ruby através de um sistema de gerenciamento de pacotes, utilizaremos o RVM. [Clique aqui](http://rvm.io/rvm/install) para ver o passo a passo na documentação oficial. 
-
-    <br/>
 
     - Vamos instalar o Homebrew, que é um gerenciador de pacotes para esses sistemas operacionais. [A documentação oficial em português está aqui](https://brew.sh/index_pt-br). Abra o terminal e digite o comando abaixo e clique em "Enter" para instalar o Homebrew:
 
@@ -100,9 +87,6 @@
     ```
     rvm use default 2.7
     ```
-    
-    <br/>
-    
 
 ### 3. Instalar a gem do bundler para instalar todas as gems necessárias do projeto (para todos os sistemas operacionais) 💎
 <br/>
@@ -122,8 +106,6 @@
   Done installing documentation for bundler after 2 seconds
   1 gem installed
   ```
-    
-  <br/>
 
 ### 4. Fazer o download do chromedriver e como configurá-lo para conseguirmos manipular o Chrome através do Selenium 🚢
 <br/>
@@ -136,11 +118,7 @@
   chrome://settings/help
   ```
 
-  <br/>
-
   ![versao_chrome_navegador](https://user-images.githubusercontent.com/60954622/118559816-e901d980-b73e-11eb-9c87-f113d712b614.jpg)
-
-  <br/>
 
   - Na imagem acima podemos ver que a versão instalada é a 90.0.4430.212;
 
@@ -148,11 +126,7 @@
 
   - Depois de clicar em cima da versão que precisamos, podemos escolher o sistema operacional que estamos trabalhando para baixar: 
 
-  <br/>
-  
   ![versao_chromedriver_so](https://user-images.githubusercontent.com/60954622/118561257-22d3df80-b741-11eb-9698-efa91861b053.jpg)
-
-  <br/>
 
   - Abrir a pasta que acabamos de baixar e:
 
@@ -168,8 +142,6 @@
     ```
     C:\Windows\chromedriver.exe
     ```
-    
-    <br/>
 
     * No <b>MacOS ou Linux </b>: fazer a extração do arquivo executável dentro da pasta <b>/usr/local/bin/</b>, porque ela já está exposta no PATH do sistema operacional. Para verificar se está visível corretamente, abra o terminal e digite:
 
@@ -182,8 +154,6 @@
     ```
     /usr/local/bin/chromedriver
     ```
-    
-<br/>
   
 ### 5. Vamos começar o setup do projeto! 🎬
 
