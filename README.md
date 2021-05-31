@@ -11,7 +11,9 @@
 
   - Na etapa seguinte, uma sugestão boa é marcar as configurações adicionais de acordo com a imagem abaixo:
 
-  <img width="400px" align="center" src="images/vscode_configs_install.jpg" />
+  <p align="center">
+    <img width="400px" align="center" src="images/vscode_configs_install.jpg" />
+  </p>
 
   - É só finalizar a instalação e estaremos prontos para seguir!
 
@@ -24,7 +26,9 @@
 
     - Abrir o arquivo executável, aceitar os termos, instalar de acordo com as configurações da imagem abaixo:
 
-    <img width="400px" align="center" src="images/rubyinstaller_configs_install.jpg" />
+    <p align="center">
+      <img width="400px" align="center" src="images/rubyinstaller_configs_install.jpg" />
+    </p>
 
     - Após concluir a instalação, será aberta uma janela do prompt de comando pedindo para que você digite um número. Digite 1 (para instalar a MSYS2) e clique em "Enter";
 
@@ -44,7 +48,7 @@
 
     - É aconselhável baixar a versão estável do Ruby através de um sistema de gerenciamento de pacotes, utilizaremos o RVM. [Clique aqui](http://rvm.io/rvm/install) para ver o passo a passo na documentação oficial. 
 
-    - Vamos instalar o Homebrew, que é um gerenciador de pacotes para esses sistemas operacionais. [A documentação oficial em português está aqui](https://brew.sh/index_pt-br). Abra o terminal e digite o comando abaixo e clique em "Enter" para instalar o Homebrew:
+    - Vamos instalar o Homebrew, que é um gerenciador de pacotes para esses sistemas operacionais. [A documentação oficial em português está aqui](https://brew.sh/index_pt-br). Caso você tenha algum problema no Linux, [tente resolver aqui nesta página.](https://docs.brew.sh/Homebrew-on-Linux) Depois disso, abra o terminal e digite o comando abaixo e clique em "Enter" para instalar o Homebrew:
 
     ```
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -105,7 +109,6 @@
   ```
 
 ### 4. Fazer o download do chromedriver e como configurá-lo para conseguirmos manipular o Chrome através do Selenium 🚢
-<br/>
 
   - Ver qual versão do Chrome está instalada no seu computador. Para isso, dentro do navegador aberto, clique nos três pontinhos no canto superior direito e escolha "Configurações". Para ir direto, é só digitar o seguinte endereço no navegador:
   
@@ -114,8 +117,9 @@
   ```
   chrome://settings/help
   ```
-
-  <img width="500px" align="center" src="images/versao_chrome_navegador.jpg" />
+  <p align="center">
+    <img width="500px" align="center" src="images/versao_chrome_navegador.jpg" />
+  </p>
 
   - Na imagem acima podemos ver que a versão instalada é a 90.0.4430.212;
 
@@ -123,7 +127,9 @@
 
   - Depois de clicar em cima da versão que precisamos, podemos escolher o sistema operacional que estamos trabalhando para baixar: 
 
-  <img width="500px" align="center" src="images/versao_chromedriver_so.jpg" />
+  <p align="center">
+    <img width="500px" align="center" src="images/versao_chromedriver_so.jpg" />
+  </p>
 
   - Abrir a pasta que acabamos de baixar e:
 
@@ -154,3 +160,86 @@
   
 ### 5. Vamos começar o setup do projeto! 🎬
 
+  - Para facilitar, adicionamos esse repositório com as configurações básicas. Você precisa copiar ele para dar continuidade no seu computador. Para isso, usaremos o <b>Git</b>, um sistema de controle de versões.
+
+    * No <b>Windows </b>: [entre no site oficial do Git e faça o download da versão para Windows](https://gitforwindows.org/). Após o download, clique duas vezes no arquivo executável e siga as instruções, clicando em "Next", até chegar na tela abaixo.     
+      * Escolha Visual Studio Code (que já instalamos) como o editor principal dos comandos Git:
+
+        <p align="center">
+          <img width="400px" align="center" src="images/gitinstaller_config_vscode.jpg" />
+        </p>
+
+      * Faça a configuração a seguir para o Git deixar a branch principal criada como "master":
+
+        <p align="center">
+          <img width="400px" align="center" src="images/gitinstaller_config_branch.jpg" />
+        </p>
+
+      * Escolha a segunda opção, como a imagem abaixo sugere, para utilizar os comandos do Git na linha de comando e adicionar somente as configurações principais como variáveis de ambiente automaticamente:
+
+        <p align="center">
+          <img width="400px" align="center" src="images/gitinstaller_config_path.jpg" />
+        </p>
+
+      * Vá clicando em "Próximo" até começar a instalação.
+
+    * No <b>Mac OS </b>: pode ser que você já tenha o Git instalado, para conferir, abra o terminal e digite o comando seguido de 'Enter':
+
+      ```
+      git --version
+      ```
+    
+        * Caso já esteja instalado, o retorno será parecido com a mensagem a seguir:
+      
+      ```
+      git version 2.31.1
+      ```
+
+        * Caso não esteja instalado, digite o comando seguido de 'Enter':
+      
+      ```
+      brew install git
+      ```
+
+    * No <b>Linux </b>: [como tem várias distribuições Linux, acesse a página oficial para saber qual o melhor comando para seu caso](https://git-scm.com/download/linux). No geral, para Debian/Ubuntu, abra o terminal e digite o comando seguido de 'Enter':
+
+      ```
+      apt-get install git
+      ```
+
+  - No terminal (MacOS e Linux) ou no prompt de comando (Windows), digite os comandos abaixo seguidos por "Enter" para configurar o autor das ações feitas através do Git:
+
+    ```
+    git config --global user.name "João Silva"
+    git config --global user.email "exemplo@seuemail.com.br"
+    ```
+
+  - Agora é hora de clonar esse repositório na sua máquina. Dentro da raiz https://github.com/lorainegarutti/setup-capybara, clique no botão destacado na imagem e depois no ícone de copiar o link:
+
+    <p align="center">
+      <img width="400px" align="center" src="images/clonar_repo.jpg" />
+    </p>
+
+  - No terminal (MacOS e Linux) ou no prompt de comando (Windows), digite os comandos abaixo seguidos por "Enter" no lugar onde queremos colocar o projeto:
+
+    ```
+    git clone https://github.com/lorainegarutti/setup-capybara.git
+    ```
+
+  - Depois é só entrar na pasta que você acabou de criar:
+
+    ```
+    cd setup-capybara
+    ```
+
+  - E abrir esta pasta com o Visual Studio Code:
+
+    ```
+    code .
+    ```
+  
+    * Ou: abra o Visual Studio Code e escolha a pasta "setup-cabypara".
+
+### 6. Conteúdos extras!
+
+  * Quer saber mais sobre o Git? Tem um curso gratuito disponibilizado pela [Test Automation University, clique aqui para saber mais.](https://testautomationu.applitools.com/git-tutorial/)
