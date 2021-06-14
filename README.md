@@ -9,7 +9,7 @@
   - Na etapa seguinte, uma sugestão boa é marcar as configurações adicionais de acordo com a imagem abaixo:
 
   <p align="center">
-    <img width="400px" align="center" src="images/vscode_configs_install.jpg" />
+    <img width="400px" align="center" src="images_readme/vscode_configs_install.jpg" />
   </p>
 
   - É só finalizar a instalação e estaremos prontos para seguir!
@@ -24,7 +24,7 @@
     - Abrir o arquivo executável, aceitar os termos, instalar de acordo com as configurações da imagem abaixo:
 
     <p align="center">
-      <img width="400px" align="center" src="images/rubyinstaller_configs_install.jpg" />
+      <img width="400px" align="center" src="images_readme/rubyinstaller_configs_install.jpg" />
     </p>
 
     - Após concluir a instalação, será aberta uma janela do prompt de comando pedindo para que você digite um número. Digite 1 (para instalar a MSYS2) e clique em "Enter";
@@ -115,7 +115,7 @@
   chrome://settings/help
   ```
   <p align="center">
-    <img width="500px" align="center" src="images/versao_chrome_navegador.jpg" />
+    <img width="500px" align="center" src="images_readme/versao_chrome_navegador.jpg" />
   </p>
 
   - Na imagem acima podemos ver que a versão instalada é a 90.0.4430.212;
@@ -125,7 +125,7 @@
   - Depois de clicar em cima da versão que precisamos, podemos escolher o sistema operacional que estamos trabalhando para baixar: 
 
   <p align="center">
-    <img width="500px" align="center" src="images/versao_chromedriver_so.jpg" />
+    <img width="500px" align="center" src="images_readme/versao_chromedriver_so.jpg" />
   </p>
 
   - Abrir a pasta que acabamos de baixar e:
@@ -163,19 +163,19 @@
       * Escolha Visual Studio Code (que já instalamos) como o editor principal dos comandos Git:
 
         <p align="center">
-          <img width="400px" align="center" src="images/gitinstaller_config_vscode.jpg" />
+          <img width="400px" align="center" src="images_readme/gitinstaller_config_vscode.jpg" />
         </p>
 
       * Faça a configuração a seguir para o Git deixar a branch principal criada como "master":
 
         <p align="center">
-          <img width="400px" align="center" src="images/gitinstaller_config_branch.jpg" />
+          <img width="400px" align="center" src="images_readme/gitinstaller_config_branch.jpg" />
         </p>
 
       * Escolha a segunda opção, como a imagem abaixo sugere, para utilizar os comandos do Git na linha de comando e adicionar somente as configurações principais como variáveis de ambiente automaticamente:
 
         <p align="center">
-          <img width="400px" align="center" src="images/gitinstaller_config_path.jpg" />
+          <img width="400px" align="center" src="images_readme/gitinstaller_config_path.jpg" />
         </p>
 
       * Vá clicando em "Próximo" até começar a instalação.
@@ -214,7 +214,7 @@
   - Agora é hora de clonar esse repositório na sua máquina. Dentro da raiz https://github.com/lorainegarutti/setup-capybara, clique no botão destacado na imagem e depois no ícone de copiar o link:
 
     <p align="center">
-      <img width="400px" align="center" src="images/clonar_repo.jpg" />
+      <img width="400px" align="center" src="images_readme/clonar_repo.jpg" />
     </p>
 
   - No terminal (MacOS e Linux) ou no prompt de comando (Windows), digite os comandos abaixo seguidos por "Enter" no lugar onde queremos colocar o projeto:
@@ -237,18 +237,23 @@
   
     * Ou: abra o Visual Studio Code e escolha a pasta "setup-cabypara".
 
-### 6. Extensões do VSCode que vão facilitar nosso trabalho 📁
+### 6. O nosso projeto 👇
+
+  - Pensaremos em cenários e automação de testes baseadas nas features do site: http://automationpractice.com/
+
+
+### 7. Extensões do VSCode que vão facilitar nosso trabalho 📁
 
   - Com o VSCode aberto, no menu lateral esquerdo, clique no ícone para acessar as extensões (ou comando Ctrl+Shift+X) - imagem abaixo.
 
     <p align="center">
-      <img width="500px" align="center" src="images/icone_extensoes_vscode.jpg" />
+      <img width="500px" align="center" src="images_readme/icone_extensoes_vscode.jpg" />
     </p>
 
   - Fazer a busca das extensões como indicado na imagem abaixo.
 
     <p align="center">
-      <img width="500px" align="center" src="images/extensoes_vscode.jpg" />
+      <img width="500px" align="center" src="images_readme/extensoes_vscode.jpg" />
     </p>
 
     - Ruby 
@@ -271,7 +276,7 @@
     - Dracula Official
 
 
-### 7. Conteúdos extras!
+### 8. Conteúdos extras!
 
   <b> Quer saber mais? </b>
 
