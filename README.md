@@ -1,6 +1,3 @@
-
-
-
 ## Como configurar os programas para começar a escrever os testes?
 
 ### 1. Fazer download do seu editor de código preferido. Para utilizar Ruby + Cucumber, preferimos o VSCode ❤️
@@ -240,6 +237,51 @@
   
     * Ou: abra o Visual Studio Code e escolha a pasta "setup-cabypara".
 
-### 6. Conteúdos extras!
+### 6. Extensões do VSCode que vão facilitar nosso trabalho 📁
+
+  - Com o VSCode aberto, no menu lateral esquerdo, clique no ícone para acessar as extensões (ou comando Ctrl+Shift+X) - imagem abaixo.
+
+    <p align="center">
+      <img width="500px" align="center" src="images/icone_extensoes_vscode.jpg" />
+    </p>
+
+  - Fazer a busca das extensões como indicado na imagem abaixo.
+
+    <p align="center">
+      <img width="500px" align="center" src="images/extensoes_vscode.jpg" />
+    </p>
+
+    - Ruby 
+      <br />(por Peng Lv)
+
+    - Ruby Solargraph 
+      <br />(por Castwide)
+
+    - Cucumber (Gherkin) Full Support 
+      <br />(por Alexander Krechik)
+
+    - Snippets and Syntax Highlight for Gherkin (Cucumber)
+      <br />(por Euclidity)
+
+    - Gherkin Indent
+      <br />(por Aavind Kumar)
+
+    - vscode-icons
+
+    - Dracula Official
+
+
+### 7. Conteúdos extras!
+
+  <b> Quer saber mais? </b>
 
   * Quer saber mais sobre o Git? Tem um curso gratuito disponibilizado pela [Test Automation University, clique aqui para saber mais.](https://testautomationu.applitools.com/git-tutorial/)
+
+
+  <b> Links da apresentação </b>
+
+  * Parte "Vamos automatizar tudo?": https://medium.com/assertqualityassurance/automatizar-testes-piora-a-qualidade-da-sua-entrega-89e312c4adbc
+
+  * Parte "Vamos contruir?" referências de construção da escrita em Gherkin: https://docbehat.readthedocs.io/pt/v3.1/guides/1.gherkin.html#etapas
+
+  * Parte "Vamos construir?" referências de boas práticas na construção de cenários: https://www.cloudbees.com/blog/cucumber-best-practices e https://spin.atomicobject.com/2011/06/02/never-say-click-good-cucumber-system-testing-practices/ 
