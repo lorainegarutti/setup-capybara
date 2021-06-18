@@ -1,5 +1,6 @@
 # language: pt
 
+@carrinho_de_compras
 Funcionalidade: Carrinho de compras
   Eu como cliente 
   Quero poder escolher e finalizar a compra
