@@ -1,4 +1,6 @@
-## Como configurar os programas para começar a escrever os testes?
+# Passo a passo pensado para configurar máquina para o Workshop Testa Aí, Mina, ocorrido em 16 e 17/06/2021
+
+## Vamos começar a escrever os testes?
 
 ### 1. Fazer download do seu editor de código preferido. Para utilizar Ruby + Cucumber, preferimos o VSCode ❤️
 
